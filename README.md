@@ -1,11 +1,9 @@
 # Just for fun web portfolio 
-This project aims to develop a fun web portfolio just for the fun of it. #jxbttm
+This project aims to develop a fun web portfolio just for the fun of it.
 
-
-
-## Credits for assets
-
+## Credits For Assets
 ### Artwork
+<a href="https://www.freepik.com/vectors/treasure">Treasure vector created by redgreystock - www.freepik.com</a>
 
 ### Audio
  Calm and Peaceful by LesFM | https://lesfm.net/relaxing-background-music/
