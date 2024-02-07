@@ -71,8 +71,7 @@
 
         <div class="col-lg-8 col-md-12 col-12 d-flex align-items-center">
           <div class="about-text">
-            <small class="small-text pl-1">I want to be <span class="mobile-block">the very best like no one ever
-                was!</span></small>
+            <small class="small-text pl-1">Welcome <span class="mobile-block">to my custom portfolio!</span></small>
             <h1 class="animated animated-text">
               <span class="mr-2">Hi I'm</span>
               <div class="animated-info">
@@ -114,8 +113,8 @@
           <div class="owl-carousel owl-theme">
             <div class="item">
               <div class="project-info">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/ayvtUGSeX2I?si=KierP71MIjNMU7QS"
-                  title="YouTube video player" frameborder="0"
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/y-L7ZdrOQG4"
+                  title="Image Captioning" frameborder="0"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                   allowfullscreen></iframe>
               </div>
@@ -124,16 +123,25 @@
             <div class="item">
               <div class="project-info">
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/HlJafyLnEXI?si=4AsjnVqWUlMGLUb0"
-                  title="YouTube video player" frameborder="0"
+                  title="Wreck It Raina" frameborder="0"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                   allowfullscreen></iframe>
+              </div>
+            </div>
+
+            <div class="item">
+              <div class="project-info">
+                <video width="560" height="315" controls>
+                  <source src="resources/videos/sicrobo_car.mp4" type="video/mp4">
+                  Robot Car
+                </video>
               </div>
             </div>
 
             <div class="item">
               <div class="project-info">
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/ncpr-K_wJBo?si=izGSDxpGGAw-Skv4"
-                  title="YouTube video player" frameborder="0"
+                  title="Chem Go" frameborder="0"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                   allowfullscreen></iframe>
               </div>
@@ -141,12 +149,21 @@
 
             <div class="item">
               <div class="project-info">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/2DsSezIFHus?si=F7q0PIBfj928ZU4o" 
-                title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-                allowfullscreen></iframe>
+                <video width="560" height="315" controls>
+                  <source src="resources/videos/ask_me_anything.mp4" type="video/mp4">
+                  Ask Me Anything
+                </video>
               </div>
             </div>
 
+            <div class="item">
+              <div class="project-info">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/ayvtUGSeX2I?si=KierP71MIjNMU7QS"
+                  title="Bit Quest" frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  allowfullscreen></iframe>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -237,32 +254,37 @@
   <!-- CONTACT -->
   <section class="contact py-5" id="contact">
     <div class="container">
-      <div class="col-lg-6 col-12">
-        <div class="contact-form">
-          <h2 class="mb-4">Interested to work together?</h2>
-          <form action="" method="get">
-            <div class="row">
-              <div class="col-lg-6 col-12">
-                <input type="text" class="form-control" name="name" placeholder="Your Name" id="name">
-              </div>
+      <div class="row justify-content-center">
+        <div class="col-lg-6 col-12">
+          <div class="contact-form">
+            <h2 class="mb-4">Interested to work together?</h2>
+            <form action="https://formsubmit.co/su_jingxuan@hotmail.com" method="POST">
+              <div class="row">
+                <div class="col-lg-6 col-12">
+                  <input type="text" class="form-control" name="name" placeholder="Your Name" id="name">
+                </div>
 
-              <div class="col-lg-6 col-12">
-                <input type="email" class="form-control" name="email" placeholder="Email" id="email">
-              </div>
+                <div class="col-lg-6 col-12">
+                  <input type="email" class="form-control" name="email" placeholder="Email" id="email" required>
+                </div>
 
-              <div class="col-12">
-                <textarea name="message" rows="6" class="form-control" id="message" placeholder="Message"></textarea>
-              </div>
+                <div class="col-lg-6 col-12">
+                  <input type="text" class="form-control" name="subject" placeholder="Subject" id="subject">
+                </div>
 
-              <div class="ml-lg-auto col-lg-5 col-12">
-                <input type="submit" class="form-control submit-btn" value="Send Button">
+                <div class="col-12">
+                  <textarea name="message" rows="6" class="form-control" id="message" placeholder="Message"
+                    required></textarea>
+                </div>
+
+                <div class="ml-lg-auto col-lg-5 col-12">
+                  <input type="submit" class="form-control submit-btn" value="Send Button">
+                </div>
               </div>
-            </div>
-          </form>
+            </form>
+          </div>
         </div>
       </div>
-
-    </div>
     </div>
   </section>
 
@@ -270,9 +292,9 @@
   <footer class="footer py-5">
     <div class="container">
       <div class="row">
-        <div class="col-lg-12 col-12">
-          <!-- <p class="copyright-text text-center">Copyright &copy; 2019 Company Name . All rights reserved</p> -->
-          <a href="https://www.linkedin.com/in/soojingxuan/">
+        <div class="col-lg-12 col-12 text-center">
+          <p class="copyright-text">Copyright &copy; 2024 Jing Xuan . All rights reserved</p>
+          <a href="https://www.linkedin.com/in/soojingxuan/" class="mx-2">
             <img src="Resources/icons/linkedin-icon.png" width="32" height="32">
           </a>
           <a href="https://github.com/jxbttm">
