@@ -1,13 +1,15 @@
-import HubIcon from '../assets/icons/jxtechhub-first-logo.png';
+import JxTechHubIcon from '../assets/icons/jxtechhub-icon.png';
 
 function Header() {
     return (
-        <div className="navbar bg-base-100 shadow-sm">
+
+        <div className="navbar">
             <div className="navbar-start">
-                <img src={HubIcon} className="h-24 w-24" />
-                {/* <a className="btn btn-ghost text-xl">JXTechHub</a> */}
+                <a href='https://github.com/JXTechHub'>
+                    <img src={JxTechHubIcon} alt="LinkedIn" className="w-28 h-28" />
+                </a>
             </div>
-            <div className="navbar-center hidden lg:flex">
+            <div className="navbar-center hidden lg:flex font-bold tracking-tight text-zinc-800 sm:text-3xl dark:text-zinc-100">
                 <ul className="menu menu-horizontal px-1">
                     <li><a>About</a></li>
                     <li><a>Projects</a></li>
