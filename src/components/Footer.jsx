@@ -5,10 +5,12 @@ function Footer() {
     return (
         <footer className="footer footer-horizontal footer-center text-base-content rounded p-10">
             <nav className="grid grid-flow-col gap-4 font-bold tracking-tight text-zinc-800 dark:text-zinc-100">
-                <a className="link link-hover">About</a>
-                <a className="link link-hover">Projects</a>
-                <a className="link link-hover">Experience</a>
-                <a className="link link-hover">Contact</a>
+                <ul className="menu menu-horizontal px-1">
+                    <li><a href="#about-section">About</a></li>
+                    <li><a href="#projects-section">Projects</a></li>
+                    <li><a href="#experience-section">Experience</a></li>
+                    {/* <li><a href="#contact-section">Contact</a></li> */}
+                </ul>
             </nav>
             <nav>
                 <div className="grid grid-flow-col gap-4">
